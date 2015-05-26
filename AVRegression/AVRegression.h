@@ -12,7 +12,7 @@
 
 @interface AVRegression : NSObject
 
--(AVVector *)solvePolynomialRegressionWithFeature:(AVVector *)x
++ (AVVector *)solvePolynomialRegressionWithFeature:(AVVector *)x
                                                 y:(AVVector *)y
                                            degree:(NSUInteger)d
                           regularisationParamater:(float)lyambda;

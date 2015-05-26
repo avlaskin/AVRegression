@@ -11,7 +11,7 @@
 
 @implementation AVRegression
 
--(AVVector *)solvePolynomialRegressionWithFeature:(AVVector *)x
++ (AVVector *)solvePolynomialRegressionWithFeature:(AVVector *)x
                                                 y:(AVVector *)y
                                            degree:(NSUInteger)d
                           regularisationParamater:(float)lyambda
@@ -40,12 +40,12 @@
     la_object_t la_b = la_matrix_product(la_Xt, la_y);
     la_object_t la_x = la_solve(la_A, la_b);
     
-    float *res = calloc(sizeof(float), y.length);
+    float *res = calloc(sizeof(float), d);
     if (la_vector_to_float_buffer(res, 1, la_x) != LA_SUCCESS) {
         NSLog(@"Failed");
         return nil;
     }
-    thetta = [[AVVector alloc] initWithLength:y.length dataRetained:res];
+    thetta = [[AVVector alloc] initWithLength:d dataRetained:res];
     return thetta;
 }
 

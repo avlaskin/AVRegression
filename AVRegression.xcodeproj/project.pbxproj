@@ -26,6 +26,8 @@
 		6881817A1B1495E8001534B6 /* NSArray+Vector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2945C6A31B147DDD003AC7B0 /* NSArray+Vector.h */; };
 		6881817B1B1495EE001534B6 /* Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2945C6CC1B148D72003AC7B0 /* Common.h */; };
 		6881817D1B149620001534B6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6881817C1B149620001534B6 /* Accelerate.framework */; };
+		6881817F1B14973E001534B6 /* AVRegressionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6881817E1B14973E001534B6 /* AVRegressionTest.m */; };
+		688181811B149757001534B6 /* lrdata.csv in Resources */ = {isa = PBXBuildFile; fileRef = 688181801B149757001534B6 /* lrdata.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		2945C6A41B147DDD003AC7B0 /* NSArray+Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Vector.m"; sourceTree = "<group>"; };
 		2945C6CC1B148D72003AC7B0 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		6881817C1B149620001534B6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6881817E1B14973E001534B6 /* AVRegressionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRegressionTest.m; sourceTree = "<group>"; };
+		688181801B149757001534B6 /* lrdata.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lrdata.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 		2945C6901B147DA2003AC7B0 /* AVRegressionTests */ = {
 			isa = PBXGroup;
 			children = (
+				6881817E1B14973E001534B6 /* AVRegressionTest.m */,
+				688181801B149757001534B6 /* lrdata.csv */,
 				2945C6911B147DA2003AC7B0 /* Supporting Files */,
 			);
 			path = AVRegressionTests;
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688181811B149757001534B6 /* lrdata.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +262,7 @@
 				2945C6A61B147DDD003AC7B0 /* AVMatrix.m in Sources */,
 				2945C6AA1B147DDD003AC7B0 /* AVVector+Tests.m in Sources */,
 				2945C6AE1B147DDD003AC7B0 /* NSArray+Vector.m in Sources */,
+				6881817F1B14973E001534B6 /* AVRegressionTest.m in Sources */,
 				2945C6AC1B147DDD003AC7B0 /* NSArray+Util.m in Sources */,
 				2945C6A81B147DDD003AC7B0 /* AVVector.m in Sources */,
 			);
