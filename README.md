@@ -1,1 +1,1 @@
-This is version 0.0.1 of polynomial linear regression libraury
+This is polynomial and linear regression library using Accelerate framework.

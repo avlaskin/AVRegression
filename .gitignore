@@ -1,6 +1,7 @@
 #.gitignore
 # xcode noise
 build/*
+DerivedData/*
 *.pbxuser
 *.mode1v3
 *.pbxuser

@@ -20,6 +20,12 @@
 		2945C6AC1B147DDD003AC7B0 /* NSArray+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2945C6A21B147DDD003AC7B0 /* NSArray+Util.m */; };
 		2945C6AD1B147DDD003AC7B0 /* NSArray+Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2945C6A41B147DDD003AC7B0 /* NSArray+Vector.m */; };
 		2945C6AE1B147DDD003AC7B0 /* NSArray+Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2945C6A41B147DDD003AC7B0 /* NSArray+Vector.m */; };
+		688181771B1495DF001534B6 /* AVMatrix.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2945C69B1B147DDD003AC7B0 /* AVMatrix.h */; };
+		688181781B1495E2001534B6 /* AVVector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2945C69D1B147DDD003AC7B0 /* AVVector.h */; };
+		688181791B1495E5001534B6 /* NSArray+Util.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2945C6A11B147DDD003AC7B0 /* NSArray+Util.h */; };
+		6881817A1B1495E8001534B6 /* NSArray+Vector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2945C6A31B147DDD003AC7B0 /* NSArray+Vector.h */; };
+		6881817B1B1495EE001534B6 /* Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2945C6CC1B148D72003AC7B0 /* Common.h */; };
+		6881817D1B149620001534B6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6881817C1B149620001534B6 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,12 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				6881817B1B1495EE001534B6 /* Common.h in CopyFiles */,
+				688181781B1495E2001534B6 /* AVVector.h in CopyFiles */,
 				2945C6851B147DA2003AC7B0 /* AVRegression.h in CopyFiles */,
+				688181771B1495DF001534B6 /* AVMatrix.h in CopyFiles */,
+				688181791B1495E5001534B6 /* NSArray+Util.h in CopyFiles */,
+				6881817A1B1495E8001534B6 /* NSArray+Vector.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +73,7 @@
 		2945C6A31B147DDD003AC7B0 /* NSArray+Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Vector.h"; sourceTree = "<group>"; };
 		2945C6A41B147DDD003AC7B0 /* NSArray+Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Vector.m"; sourceTree = "<group>"; };
 		2945C6CC1B148D72003AC7B0 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		6881817C1B149620001534B6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6881817D1B149620001534B6 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +99,7 @@
 		2945C6781B147DA2003AC7B0 = {
 			isa = PBXGroup;
 			children = (
+				6881817C1B149620001534B6 /* Accelerate.framework */,
 				2945C6831B147DA2003AC7B0 /* AVRegression */,
 				2945C6901B147DA2003AC7B0 /* AVRegressionTests */,
 				2945C6821B147DA2003AC7B0 /* Products */,
