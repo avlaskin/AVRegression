@@ -1,0 +1,22 @@
+#.gitignore
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+#Xcode 4 noise
+*.xcworkspace
+*/xcuserdata/*
+*/xcshareddata/*
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+.idea/*
+atlassian-ide-plugin.xml
